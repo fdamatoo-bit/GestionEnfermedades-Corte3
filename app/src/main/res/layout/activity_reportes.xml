@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REPORTES"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USUARIOS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputNombreUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar por nombre"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReporteNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE USUARIOS POR NOMBRE"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/inputEmailUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar por email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReporteEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE USUARIOS POR EMAIL"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENFERMEDADES"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputGravedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nivel de gravedad"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReporteGravedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE POR GRAVEDAD"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/inputContagiosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contagiosa: true o false"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnReporteContagiosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE POR CONTAGIOSA"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado del reporte"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLVER AL MENÚ" />
+
+    </LinearLayout>
+
+</ScrollView>

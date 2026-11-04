@@ -1,0 +1,119 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GESTIÓN DE ENFERMEDADES"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/inputId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:inputType="number"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputNombreCientifico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre científico"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputNivelGravedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nivel de gravedad"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputSintomas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Síntomas"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/inputMedicamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicamentos"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/checkContagiosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es contagiosa" />
+
+        <CheckBox
+            android:id="@+id/checkCubiertaPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cubierta por POS" />
+
+        <CheckBox
+            android:id="@+id/checkIncapacidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Requiere incapacidad"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTAR"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnCrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CREAR"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELIMINAR"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLVER AL MENÚ" />
+
+    </LinearLayout>
+
+</ScrollView>
